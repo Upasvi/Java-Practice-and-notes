@@ -21,6 +21,6 @@ public class video20 {
         System.out.println("Computer chose: " + computer);
     }
 }
-
+// rock paper scissor game
 
 
