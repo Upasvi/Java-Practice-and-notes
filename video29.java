@@ -50,7 +50,7 @@ public class video29{
     }
          */
 
-
+/* 
          public class video29 {
     public static void main(String[] args) {
         int[][] matrix1 = {{2, 3, 6}, {4, 5, 7}};
@@ -65,4 +65,25 @@ public class video29{
             System.out.println(); // for new row
         }
     }
+}
+*/
+
+
+public class video29 {
+
+     public static void main(String[] args) {
+        int [] arr ={1,2,3,4,5,6};
+        int l = arr.length;
+        int n = Math.floorDiv(arr.length,2);
+        int temp;
+        for(int i = 0; i<n; i++){
+            // swap a[i] and a[li\-i-1]
+            temp =arr[i];
+            arr[i]=arr[l-i-1];
+            arr[l-i-1] = temp;
+        }
+        for(int element:arr){
+            System.out.println(element);
+        }
+     }
 }
