@@ -13,7 +13,10 @@ public class video31 {
     public static void main(String[] args) {
         int a = 5;
         int b= 6;
-        int c = logic(a,b);
+       int c;
+      //method invoccation using object creation  
+       //video31 obj = new video31();
+       //int c = obj.logic(a,b);
 
         int a1=7;
         int b1 =8;
