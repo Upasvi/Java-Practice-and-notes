@@ -68,7 +68,7 @@ public class video29{
 }
 */
 
-
+/* 
 public class video29 {
 
      public static void main(String[] args) {
@@ -87,3 +87,55 @@ public class video29 {
         }
      }
 }
+     */
+
+/*
+     public class video29 {
+     
+        public static void main(String[] args) {
+            int [] arr = {1 , 21 , 3 , 455 , 5 , 34 , 67};
+            int max = 0;
+            for(int element:arr){
+                if(element>max){
+                    max = element;
+                }
+            }
+            System.out.println(max);
+        }
+     }
+         */
+
+       /*
+       public class video29 {
+     
+        public static void main(String[] args) {
+            int [] arr = {1 , 21 , 3 , 455 , 5 , 34 , 67};
+            int min = arr[0];
+            for(int element:arr){
+                if(element<min){
+                    min = element;
+                }
+            }
+            System.out.println(min);
+        }
+     }   */
+
+     public class video29 {
+     
+        public static void main(String[] args) {
+            boolean isSorted = true;
+            int [] arr = {1 , 21 , 3 , 455 , 5 , 34 , 67};
+            for(int i =0;i<arr.length;i++){
+                if(arr[i] > arr[i+1]){
+                    isSorted = false;
+                    break;
+                }
+            }
+            if(isSorted){
+                System.out.println("sorted");
+            }
+            else{
+                System.out.println("not sorted");
+            }
+        }
+    }
