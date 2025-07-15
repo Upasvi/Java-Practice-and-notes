@@ -22,7 +22,7 @@ public class video31 {
         int b1 =8;
         int c1 = logic(a1, b1);
 
-        System.out.println(c);
+       // System.out.println(c);
         System.out.println(c1);
     }        
     }
